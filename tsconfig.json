@@ -21,6 +21,13 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [src/app/components/AnimatedAIIcon.tsx
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/components/AnimatedAIIcon",
+    "src/app/components/ChatWindow.tsx"
+  ],
   "exclude": ["node_modules"]
 }
